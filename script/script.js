@@ -30,3 +30,4 @@ if (sec < 10 ){
     clockSec.innerText=sec;
 }, 1000);
 
+
