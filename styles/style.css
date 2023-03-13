@@ -14,8 +14,8 @@ body{
 }
 
 .clock{
-    font-size: 8rem;
     background-color:lightblue ;
+    font-weight: bolder;
     border-radius: 1rem;
     letter-spacing:.5rem;
     padding: 1rem;
@@ -28,4 +28,16 @@ body{
     background-color: #fff;
     border-radius: 2rem;
     padding: 1rem;
+}
+
+
+/* desktop responsive */
+
+@media only screen and (min-width:768px) {
+    
+    .clock{
+        font-size: 7rem;
+    }
+
+    
 }
